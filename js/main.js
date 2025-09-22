@@ -121,31 +121,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // Typing effect for hero title
-  const heroTitle = document.querySelector('.hero-title');
-  if (heroTitle) {
-    const titleLines = heroTitle.querySelectorAll('.title-line');
-    titleLines.forEach((line, index) => {
-      const text = line.textContent;
-      line.textContent = '';
-      line.style.opacity = '0';
-      
-      setTimeout(() => {
-        line.style.opacity = '1';
-        let i = 0;
-        
-        function typeWriter() {
-          if (i < text.length) {
-            line.textContent += text.charAt(i);
-            i++;
-            setTimeout(typeWriter, 100);
-          }
-        }
-        
-        typeWriter();
-      }, index * 1000);
-    });
-  }
 
 
   // Add hover effects to skill cards
