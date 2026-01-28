@@ -3,14 +3,14 @@
 Version 1 of my personal portfolio built using **HTML, CSS, and Vanilla JavaScript**.  
 It showcases my profile, skills, and my first project in a clean and responsive layout.
 
-## 🚀 Features
+## Features
 - Responsive design
 - About Me section
 - Skills Section
 - Project showcase
 - Contact section
 
-## 🛠️ Tech Stack
+## Tech Stack
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
