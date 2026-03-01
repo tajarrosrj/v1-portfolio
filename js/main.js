@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   // Add ripple effect to buttons
-  const buttons = document.querySelectorAll('.btn, .contact-method');
+  const buttons = document.querySelectorAll('.contact-method');
   buttons.forEach(button => {
     button.addEventListener('click', function(e) {
       const ripple = document.createElement('span');
@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Add CSS for ripple effect
   const style = document.createElement('style');
   style.textContent = `
-    .btn, .contact-method {
+    .contact-method {
       position: relative;
       overflow: hidden;
     }
